@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoffrey (Goomys) | Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Geoffrey (Goomys) - Developer specializing in automation, web apps, and Minecraft mods.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="grid-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">
+                <img src="assets/profile.jpg" alt="Geoffrey" class="nav-avatar">
+                GEO.
+            </a>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#stack" class="nav-link">Stack</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="brutal-btn icon-btn" aria-label="Toggle Dark Mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="hero-content reveal">
+                <div class="greeting-wrapper">
+                    <span id="multilingual-greeting" class="greeting-text"></span><span class="typing-cursor">|</span>
+                </div>
+                <h1 class="headline">I'm <span class="highlight">Goomys</span>.</h1>
+                <p class="hero-desc">I build things with code, explore technology, and turn ideas into practical projects.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="brutal-btn primary">Explore Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-container reveal">
+                <div class="brutal-card about-text-full">
+                    <p>I'm Geoffrey, a developer specializing in smart automation systems, custom Telegram & WhatsApp bots, and web applications.</p>
+                    <br>
+                    <p>My core expertise covers Python, Kotlin, Vanilla JavaScript, web scraping, and custom Minecraft mods. I focus on building efficient, scalable, and practical software to streamline repetitive tasks and extract complex data.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <h2 class="section-title reveal">Project Showcase</h2>
+            <div id="projects-grid" class="projects-grid reveal">
+                <!-- Projects injected via JS -->
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="stack" class="stack section-padding">
+            <h2 class="section-title reveal">Technologies</h2>
+            <div class="stack-grid reveal">
+                <div class="brutal-card stack-category">
+                    <h3>Languages & Backend</h3>
+                    <div class="tags">
+                        <span class="brutal-tag float-anim">Python</span>
+                        <span class="brutal-tag float-anim">Kotlin</span>
+                        <span class="brutal-tag float-anim">JavaScript (ES6+)</span>
+                        <span class="brutal-tag float-anim">Flask</span>
+                    </div>
+                </div>
+                <div class="brutal-card stack-category">
+                    <h3>Frontend</h3>
+                    <div class="tags">
+                        <span class="brutal-tag float-anim">HTML5 & CSS3</span>
+                        <span class="brutal-tag float-anim">Vanilla DOM API</span>
+                        <span class="brutal-tag float-anim">Jetpack Compose</span>
+                    </div>
+                </div>
+                <div class="brutal-card stack-category">
+                    <h3>Tools & Environment</h3>
+                    <div class="tags">
+                        <span class="brutal-tag float-anim">VS Code</span>
+                        <span class="brutal-tag float-anim">PyCharm</span>
+                        <span class="brutal-tag float-anim">Git</span>
+                        <span class="brutal-tag float-anim">Docker</span>
+                        <span class="brutal-tag float-anim">Linux (Ubuntu/Debian)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <h2 class="section-title reveal">Let's Connect</h2>
+            <div class="brutal-card contact-card reveal">
+                <p>Always open to discussing new projects, technology, or creative ideas.</p>
+                <div class="contact-links-stacked">
+                    <a href="https://github.com/geoffreyoner" target="_blank" rel="noopener noreferrer" class="brutal-btn full-width secondary">GitHub</a>
+                    <a href="https://instagram.com/gxmysz" target="_blank" rel="noopener noreferrer" class="brutal-btn full-width secondary">Instagram</a>
+                    <a href="https://tiktok.com/@bayyyqt" target="_blank" rel="noopener noreferrer" class="brutal-btn full-width secondary">TikTok</a>
+                    <a href="https://t.me/gloomygkvhl" target="_blank" rel="noopener noreferrer" class="brutal-btn full-width secondary">Telegram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Geoffrey.</p>
+    </footer>
+
+    <!-- Lenis Smooth Scroll Library -->
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
