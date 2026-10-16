@@ -1,0 +1,17 @@
+# Python cache & build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.vercel
+vercel
+
+# Environment variables
+.env
+*.log
+.push.sh
+push.sh
+*push.sh
