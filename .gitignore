@@ -8,9 +8,6 @@ env/
 venv/
 .vercel
 vercel
-
-# gatau
-
 .env
 *.log
 *.sh

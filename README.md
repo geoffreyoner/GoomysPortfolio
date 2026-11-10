@@ -85,7 +85,6 @@ GoomysPortfolio/
     │   ├── theme-init.js # Sets the theme before paint (no flash)
     │   └── year.js       # Footer year
     └── assets/
-        ├── profile.jpg
         └── fonts/        # Self-hosted Playfair Display, Inter Tight, IBM Plex Mono
 ```
 
@@ -143,7 +142,6 @@ GoomysPortfolio/
 
 - **Projects** — edit `static/js/projects.js` to add, remove, or update the projects shown on the page.
 - **Styling** — colors, borders, and shadows live in `static/css/style.css`.
-- **Profile photo** — replace `static/assets/profile.jpg` with your own image.
 
 ---
 
