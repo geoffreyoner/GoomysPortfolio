@@ -1,0 +1,16 @@
+# python cache 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.vercel
+vercel
+
+# gatau
+
+.env
+*.log
+*.sh

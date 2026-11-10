@@ -1,0 +1,12 @@
+Self-hosted webfonts (latin subset, woff2).
+
+Inter Tight — (c) The Inter Project Authors, SIL Open Font License 1.1
+https://github.com/rsms/inter
+
+IBM Plex Mono — (c) IBM Corp., SIL Open Font License 1.1
+https://github.com/IBM/plex
+
+Playfair Display — (c) The Playfair Project Authors, SIL Open Font License 1.1
+https://github.com/clauseggers/Playfair
+
+Files fetched from fonts.gstatic.com via the Google Fonts CSS API.

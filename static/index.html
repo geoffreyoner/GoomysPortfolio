@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goomys | Dev</title>
+    <meta name="description" content="Goomys — I write Python, Kotlin, and plain JavaScript. Bots, web apps, and Minecraft mods.">
+    <link rel="canonical" href="https://goomys.biz.id/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Goomys">
+    <meta property="og:title" content="Goomys | Dev">
+    <meta property="og:description" content="Goomys — I write Python, Kotlin, and plain JavaScript. Bots, web apps, and Minecraft mods.">
+    <meta property="og:url" content="https://goomys.biz.id/">
+    <meta property="og:image" content="https://goomys.biz.id/assets/profile.jpg">
+    <meta property="og:image:width" content="460">
+    <meta property="og:image:height" content="460">
+    <meta property="og:image:alt" content="Goomys">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="icon" href="assets/profile.jpg" type="image/jpeg">
+    <link rel="preload" href="assets/fonts/inter-tight-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/playfair-display-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/theme-init.js"></script>
+</head>
+<body>
+    <a href="#main" class="skip">Skip to content</a>
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <nav class="navbar" aria-label="Primary">
+        <div class="wrap nav-inner">
+            <a href="#home" class="brand">
+                Goomys
+            </a>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+            <div class="nav-links" id="primary-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#stack" class="nav-link">Stack</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="true" aria-label="Switch to light mode">[ Dark ]</button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <section id="home" class="hero">
+            <div class="wrap">
+                <p class="eyebrow hero-eyebrow reveal">/ Developer — Automation — Web / </p>
+                <h1 class="hero-title reveal">Goomys<span class="hero-dot">.</span></h1>
+                <p class="hero-desc reveal">I write code, break stuff, and ship what survives. Mostly bots, web apps, and Minecraft mods.</p>
+                <div class="hero-actions reveal">
+                    <a href="#projects" class="btn btn--solid">Explore Projects <span class="arrow" aria-hidden="true">↗</span></a>
+                    <a href="#contact" class="btn">Get in touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="wrap section-grid">
+                <p class="section-label"><span class="num">01</span> / About</p>
+                <div>
+                    <h2 class="section-title reveal">About</h2>
+                    <div class="prose reveal">
+                        <p>I'm Goomys. I write Python, Kotlin, and plain JavaScript. I build Telegram and WhatsApp bots, scrape sites for data, and mess around with Minecraft mods. There's usually a Flask app running somewhere too.</p>
+                        <p>I don't overthink it. If a task is boring and I have to do it twice, I write a script and never touch it again. That's about the whole philosophy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="wrap section-grid">
+                <p class="section-label"><span class="num">02</span> / Projects</p>
+                <div>
+                    <h2 class="section-title reveal">Selected Work</h2>
+                    <ol id="projects-list" class="project-list reveal"></ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="section">
+            <div class="wrap section-grid">
+                <p class="section-label"><span class="num">03</span> / Stack</p>
+                <div>
+                    <h2 class="section-title reveal">Technologies</h2>
+                    <div class="spec reveal">
+                        <div class="spec-row">
+                            <span class="spec-label">Languages &amp; Backend</span>
+                            <div class="spec-items">
+                                <span>Python</span><span>React</span><span>JavaScript</span><span>Node.js</span><span>SQLite</span>
+                            </div>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Frontend</span>
+                            <div class="spec-items">
+                                <span>HTML5 &amp; CSS3</span><span>Vanilla DOM API</span>
+                            </div>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-label">Tools &amp; Environment</span>
+                            <div class="spec-items">
+                                <span>Visual Studio Code</span><span>PyCharm</span><span>Git</span><span>Docker</span><span>Debian</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="wrap section-grid">
+                <p class="section-label"><span class="num">04</span> / Contact</p>
+                <div>
+                    <h2 class="section-title reveal">Let's Connect</h2>
+                    <p class="contact-intro reveal">Got a project, a bug, or a weird idea? Message me.</p>
+                    <ul class="contact-list reveal">
+                        <li>
+                            <a href="https://github.com/geoffreyoner" target="_blank" rel="noopener noreferrer" class="contact-row">
+                                <span class="contact-name">GitHub</span>
+                                <span class="contact-meta">@geoffreyoner <span class="contact-arrow" aria-hidden="true">↗</span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/gxmysz" target="_blank" rel="noopener noreferrer" class="contact-row">
+                                <span class="contact-name">Instagram</span>
+                                <span class="contact-meta">@gxmysz <span class="contact-arrow" aria-hidden="true">↗</span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tiktok.com/@bayyyqt" target="_blank" rel="noopener noreferrer" class="contact-row">
+                                <span class="contact-name">TikTok</span>
+                                <span class="contact-meta">@bayyyqt <span class="contact-arrow" aria-hidden="true">↗</span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/gloomygkvhl" target="_blank" rel="noopener noreferrer" class="contact-row">
+                                <span class="contact-name">Telegram</span>
+                                <span class="contact-meta">@gloomygkvhl <span class="contact-arrow" aria-hidden="true">↗</span></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap footer-inner">
+            <p>© <span id="footer-year">2026</span> Goomys</p>
+        </div>
+    </footer>
+
+    <script src="js/year.js" defer></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
